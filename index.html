@@ -1,1 +1,60 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple-Inspired Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 bg-white border-b shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold">Apple</div>
+      <div class="space-x-6 text-sm">
+        <a href="#" class="hover:underline">Mac</a>
+        <a href="#" class="hover:underline">iPhone</a>
+        <a href="#" class="hover:underline">iPad</a>
+        <a href="#" class="hover:underline">Support</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gray-100">
+    <h1 class="text-5xl font-bold mb-4">iPhone 15 Pro</h1>
+    <p class="text-xl text-gray-600 mb-6">Titanium. So strong. So light. So Pro.</p>
+    <div class="space-x-4">
+      <a href="#" class="px-6 py-2 bg-black text-white rounded-full">Learn More</a>
+      <a href="#" class="px-6 py-2 bg-gray-300 text-black rounded-full">Buy</a>
+    </div>
+    <img src="https://www.apple.com/v/iphone-15-pro/a/images/overview/hero/hero_static__e5xbgo5ffhg2_large.jpg" alt="iPhone" class="mx-auto mt-10 w-full max-w-3xl rounded-xl shadow-xl">
+  </section>
+
+  <!-- Product Grid -->
+  <section class="max-w-7xl mx-auto px-4 py-20 grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div class="bg-gray-100 p-10 rounded-lg text-center">
+      <h2 class="text-3xl font-semibold mb-2">MacBook Air M3</h2>
+      <p class="text-gray-600 mb-4">Supercharged by M3 chip. Now in two sizes.</p>
+      <img src="https://www.apple.com/v/macbook-air-13-and-15-m3/b/images/overview/hero/hero__eqf6g4iwhj6e_large.jpg" class="mx-auto w-full max-w-md rounded-lg" alt="MacBook">
+    </div>
+    <div class="bg-gray-100 p-10 rounded-lg text-center">
+      <h2 class="text-3xl font-semibold mb-2">iPad Pro</h2>
+      <p class="text-gray-600 mb-4">Powerful. Beautiful. Intuitive.</p>
+      <img src="https://www.apple.com/v/ipad-pro/am/images/overview/hero/hero_combo__fcqcc3hbzjyy_large.jpg" class="mx-auto w-full max-w-md rounded-lg" alt="iPad">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center text-gray-500 text-sm py-6">
+    © 2025 Apple Clone. All rights reserved. | Designed for educational use.
+  </footer>
+
+</body>
+</html>
+
